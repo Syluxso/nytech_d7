@@ -1,5 +1,5 @@
 <?php
-module_load_include('inc', 'nytech_master', 'nytech_master.classes');
+module_load_include('inc', basename(__DIR__), basename(__DIR__) . '.classes');
 
 /**
  * Implements hook_menu().

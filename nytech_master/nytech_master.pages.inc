@@ -1,5 +1,5 @@
 <?php
-module_load_include('inc', 'nytech_master', 'nytech_master.forms');
+module_load_include('inc', basename(__DIR__), basename(__DIR__) . '.forms');
 
 function screen_site_settings() {
   $form = drupal_get_form('nytech_master_site_settings_form');
